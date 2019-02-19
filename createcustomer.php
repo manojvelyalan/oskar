@@ -8,5 +8,5 @@ if(!is_object($currentUser)){
         header('Location:login');
 }
 $groups = $commonModel->getAllGroup();
-$title = "Create Customer";
+$title = "Create Customers";
 require_once 'view/createcustomer.php';
